@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+   
+    height: 100vh;
+    background: url(images/banner/banner1.png) no-repeat;
+    background-position: top left;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 150px;
+}
+ 
+.hero-banner{
+    width: 600px;
+    text-align: right;
+}
+ 
+.hero-banner .title h1{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 600;
+
+
+}
+.hero-banner .title .dipcription p{
+    color: #444343; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 30px 0;
+   
+}
+.hero-banner .btn button{
+    background-color: #151414;
+    font-size: 26px;
+    color: #fff;
+    padding: 20px 30px;
+    border: 0;
+}
+.hero-banner .btn button:hover{
+    background-color: #444343;
+    
+}
+/* header part end */
+/* main part start */
+.container{
+ width: 80%;
+ margin: 0 auto;
+}
+section{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 60px 0;
+    justify-content: space-evenly;
+}
+section .left img{
+    width: 500px;
+    height: 400px;
+}
+
+section .right h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+section .right p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 30px 0;
+
+}
+section .right .icon ul{
+    list-style: none;
+}
+li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+li i{
+    color: aqua;
+    font-size: 25px;
+}
+section .right .icon ul li span{
+    color: #151414;
+}
+/* main part end */
+/* main plans start */
+.section-plans{
+     display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 100px 0;
+}
+/* banner2 start */
+#banner-2{
+  background: url("images/gradient2.png"), url("images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  margin-bottom: 100px;
+  display: block; 
+  padding: 80px 70px;
+  
+}
+#banner-2 h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+#banner-2 .btn button{
+    border: 0;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 15px 20px;
+}
+
+  
+
+/* footer part start */
+footer{
+    background-color: #151414;
+   margin-bottom: 100px;
+   color: #fff;
+   padding: 50px 200px;
+    display: flex;  
+   justify-content: space-between;
+}
+.contant h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-depcription p{
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px 0;
+  
+}
+.footer-contact{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+.footer-subscript h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-subscript from input{
+    padding: 15px 20px;
+    margin: 15px 0;
+}
+.footer-subscript .btn button{
+    padding: 15px 20px;
+    font-size: 15px;
+}
+
+/* footer part end */
+
